@@ -2,13 +2,16 @@
 
 Split-Pane component built with [React](http://facebook.github.io/react), can be split vertically or horizontally.
 
-
 [![Build Status](https://img.shields.io/travis/tomkp/react-split-pane/master.svg?style=flat-square)](https://travis-ci.org/tomkp/react-split-pane)
 [![Coverage Status](https://img.shields.io/coveralls/tomkp/react-split-pane/master.svg?style=flat-square)](https://coveralls.io/r/tomkp/react-split-pane)
 
+--- 
+
+**This repo has been deprecated because it's now included in https://github.com/storybooks/storybook**
+
+---
 
 Check out the [demo](http://react-split-pane.surge.sh/)
-
 
 ```html
    <SplitPane split="vertical" minSize={50} defaultSize={100}>
