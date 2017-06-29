@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
 import Pane from './Pane';
 import VSplit from './VSplit';
@@ -200,7 +201,7 @@ SplitPane.propTypes = {
   primary: PropTypes.oneOf(['first', 'second']),
   minSize: PropTypes.number,
   maxSize: PropTypes.number,
-  defaultSize: PropTypes.oneOfType([PropTypes.number, PropTypes.string)],
+  defaultSize: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   size: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   allowResize: PropTypes.bool,
   split: PropTypes.oneOf(['vertical', 'horizontal']),
