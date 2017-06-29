@@ -21,9 +21,9 @@ class Pane extends Component {
 
     if (this.state.size !== undefined) {
       if (split === 'vertical') {
-        style.width = this.state.size;
+        style.width = `${this.state.size}px`;
       } else {
-        style.height = this.state.size;
+        style.height = `${this.state.size}px`;
         style.display = 'flex';
       }
       style.flex = 'none';
